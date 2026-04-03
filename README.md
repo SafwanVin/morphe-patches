@@ -42,6 +42,7 @@
 | IbisPaint X :dart: :computer:   | `jp.ne.ibis.ibispaintx.app`        | <ul><li>Enable Prime membership</li></ul>                                                             |
 | Icon Packer                     | `cn.ommiao.iconpacker`             | <ul><li>Unlocked premium features</li></ul>                                                           |
 | Lingory :dart: :computer:       | `org.languageapp.lingory`          | <ul><li>Enable Premium</li></ul>                                                                      |
+| Lyfta                           | `com.lyfta`                        | <ul><li>Enable Premium</li></ul>                                                                      |
 | Meme Generator                  | `com.zombodroid.MemeGenerator`     | <ul><li>Enable Pro</li></ul>                                                                          |
 | Merriam-Webster                 | `com.merriamwebster`               | <ul><li>Enable Premium</li></ul>                                                                      |
 | Mimo                            | `com.getmimo`                      | <ul><li>Enable Pro</li></ul>                                                                          |
