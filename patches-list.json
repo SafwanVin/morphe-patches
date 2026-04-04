@@ -1,5 +1,5 @@
 {
-  "version": "1.20.0-dev.1",
+  "version": "1.20.0-dev.2",
   "patches": [
     {
       "name": "Add resources",
@@ -440,6 +440,18 @@
       "compatiblePackages": {
         "com.myfitnesspal.android": [
           "25.50.0"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable Prime",
+      "description": "Enable Nova Launcher Prime and app locked behind the subscription paywall.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.teslacoilsw.launcher": [
+          "81042 (8.5.1)"
         ]
       },
       "options": []

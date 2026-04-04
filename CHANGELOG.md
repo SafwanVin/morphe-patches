@@ -1,3 +1,10 @@
+# [1.20.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.20.0-dev.1...v1.20.0-dev.2) (2026-04-04)
+
+
+### Features
+
+* **Nova Launcher:** Add `Enable Prime` patch ([2fe5084](https://github.com/hoo-dles/morphe-patches/commit/2fe50841d9ceb7078ea8b5d1b237eeaf9d8e9087))
+
 # [1.20.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.19.0...v1.20.0-dev.1) (2026-04-03)
 
 
