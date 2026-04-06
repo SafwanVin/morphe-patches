@@ -1,8 +1,7 @@
 package app.morphe.patches.podcastaddict.premium
 
-import app.morphe.patcher.patch.AppTarget
-import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patches.podcastaddict.shared.Constants
 import app.morphe.util.returnEarly
 
 @Suppress("unused")
@@ -10,12 +9,7 @@ val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
     description = "Enables app features locked behind the subscription paywall."
 ) {
-    compatibleWith(Compatibility(
-        name = "Podcast Addict",
-        packageName = "com.bambuna.podcastaddict",
-        appIconColor = 0xFD7E14,
-        targets = listOf(AppTarget("2026.1"))
-    ))
+    compatibleWith(Constants.COMPATIBILITY)
 
     execute {
         HasPremiumFingerprint.method.returnEarly(true)
