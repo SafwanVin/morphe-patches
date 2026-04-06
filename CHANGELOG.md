@@ -1,3 +1,10 @@
+# [1.21.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.21.0-dev.1...v1.21.0-dev.2) (2026-04-06)
+
+
+### Features
+
+* **Podcast Addict:** Add `MicroG integration` patch ([95f3b09](https://github.com/hoo-dles/morphe-patches/commit/95f3b0921f15dc0d7eff672c7d43636d78a79119))
+
 # [1.21.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.20.0...v1.21.0-dev.1) (2026-04-06)
 
 
