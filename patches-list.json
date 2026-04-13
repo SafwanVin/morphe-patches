@@ -1,5 +1,5 @@
 {
-  "version": "1.23.0",
+  "version": "1.23.1-dev.1",
   "patches": [
     {
       "name": "Add resources",
@@ -362,7 +362,9 @@
       "name": "Enable Premium",
       "description": "Enables app features locked behind the subscription paywall.",
       "use": true,
-      "dependencies": [],
+      "dependencies": [
+        "RawResourcePatch"
+      ],
       "compatiblePackages": {
         "ru.iiec.pydroid3": [
           "8.3_arm64"
