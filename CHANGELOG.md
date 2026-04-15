@@ -1,3 +1,17 @@
+# [1.24.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.23.1-dev.1...v1.24.0-dev.1) (2026-04-15)
+
+
+### Features
+
+* **MacroFactor:** Add `Enable Premium` patch ([c47c6eb](https://github.com/hoo-dles/morphe-patches/commit/c47c6eb1ac14a269ce198c7ea3fcacade68066f5))
+
+## [1.23.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.23.0...v1.23.1-dev.1) (2026-04-13)
+
+
+### Bug Fixes
+
+* **PyDroid3:** Fix anti-tamper that caused broken python3 output ([94fb0c8](https://github.com/hoo-dles/morphe-patches/commit/94fb0c839dbf5b2469feced647a5735e732a01dc))
+
 # [1.23.0](https://github.com/hoo-dles/morphe-patches/compare/v1.22.0...v1.23.0) (2026-04-12)
 
 

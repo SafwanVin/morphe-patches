@@ -1,5 +1,5 @@
 {
-  "version": "1.23.0",
+  "version": "1.24.0-dev.1",
   "patches": [
     {
       "name": "Add resources",
@@ -350,6 +350,21 @@
       "name": "Enable Premium",
       "description": "Enables app features locked behind the subscription paywall.",
       "use": true,
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
+      "compatiblePackages": {
+        "com.sbs.diet": [
+          "5.7.6"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Enable Premium",
+      "description": "Enables app features locked behind the subscription paywall.",
+      "use": true,
       "dependencies": [],
       "compatiblePackages": {
         "com.bambuna.podcastaddict": [
@@ -362,7 +377,9 @@
       "name": "Enable Premium",
       "description": "Enables app features locked behind the subscription paywall.",
       "use": true,
-      "dependencies": [],
+      "dependencies": [
+        "RawResourcePatch"
+      ],
       "compatiblePackages": {
         "ru.iiec.pydroid3": [
           "8.3_arm64"
@@ -761,6 +778,18 @@
       "compatiblePackages": {
         "com.getmimo": [
           "9.0"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Spoof signature",
+      "description": "Spoof package signature for Firebase app check.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.sbs.diet": [
+          "5.7.6"
         ]
       },
       "options": []
