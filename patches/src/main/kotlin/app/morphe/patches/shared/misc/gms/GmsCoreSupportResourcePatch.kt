@@ -1,8 +1,8 @@
 package app.morphe.patches.shared.misc.gms
 
 import app.morphe.patcher.patch.resourcePatch
-import app.morphe.patches.all.misc.packagename.changePackageNamePatch
-import app.morphe.patches.all.misc.packagename.setOrGetFallbackPackageName
+import app.morphe.patches.all.packagename.changePackageNamePatch
+import app.morphe.patches.all.packagename.setOrGetFallbackPackageName
 import org.w3c.dom.Element
 import org.w3c.dom.Node
 

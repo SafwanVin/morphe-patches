@@ -1,4 +1,4 @@
-package app.morphe.patches.all.misc.packagename
+package app.morphe.patches.all.packagename
 
 import app.morphe.patcher.patch.Option
 import app.morphe.patcher.patch.OptionException

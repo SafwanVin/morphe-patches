@@ -1,4 +1,4 @@
-package app.morphe.patches.all.misc.resources
+package app.morphe.patches.shared.misc.resources
 
 import app.morphe.patcher.patch.resourcePatch
 import app.morphe.util.forEachChildElement
@@ -60,11 +60,10 @@ internal fun addAppResources(appId: String) {
     appsToInclude.add(appId)
 }
 
-internal val addResourcesPatch = resourcePatch(
-    name = "Add resources",
-    description = "Add resources such as strings or arrays to the app.",
-    default = false
-) {
+/**
+ * Add resources such as strings or arrays to the app.
+ */
+internal val addResourcesPatch = resourcePatch {
     val defaultResourcesAdded = mutableSetOf<String>()
 
     finalize {

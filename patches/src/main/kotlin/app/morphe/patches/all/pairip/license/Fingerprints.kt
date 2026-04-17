@@ -1,4 +1,4 @@
-package app.morphe.patches.all.misc.pairip.license
+package app.morphe.patches.all.pairip.license
 
 import app.morphe.patcher.Fingerprint
 import app.morphe.patcher.fieldAccess

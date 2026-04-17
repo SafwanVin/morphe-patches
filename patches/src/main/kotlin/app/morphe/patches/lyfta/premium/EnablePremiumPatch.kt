@@ -3,7 +3,7 @@ package app.morphe.patches.lyfta.premium
 import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.bytecodePatch
-import app.morphe.patches.all.misc.pairip.license.disableLicenseCheckPatch
+import app.morphe.patches.all.pairip.license.disableLicenseCheckPatch
 import app.morphe.util.returnEarly
 
 val enablePremiumPatch = bytecodePatch(
