@@ -5,6 +5,7 @@ import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.util.getReference
+import app.morphe.util.returnEarly
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 
@@ -16,10 +17,12 @@ val enablePremiumPatch = bytecodePatch(
         name = "Ventusky",
         packageName = "cz.ackee.ventusky",
         appIconColor = 0X4D71DE,
-        targets = listOf(AppTarget("52.0"))
+        targets = listOf(AppTarget("53.1"))
     ))
 
     execute {
+        SignatureCheckFingerprint.method.returnEarly(true)
+
         val premiumStaticField = PremiumCodeCtorFingerprint.instructionMatches.last()
             .getInstruction<ReferenceInstruction>()
             .getReference<FieldReference>()!!
