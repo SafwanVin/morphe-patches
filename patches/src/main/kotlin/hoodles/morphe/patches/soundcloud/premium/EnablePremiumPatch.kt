@@ -6,7 +6,6 @@ import hoodles.morphe.patches.shared.misc.extension.activityOnCreateExtensionHoo
 import hoodles.morphe.patches.shared.misc.extension.sharedExtensionPatch
 import hoodles.morphe.patches.soundcloud.shared.Constants
 
-
 private val extensionPatch = sharedExtensionPatch(
     "soundcloud",
     activityOnCreateExtensionHook("/RootActivity;")
@@ -14,7 +13,7 @@ private val extensionPatch = sharedExtensionPatch(
 
 val enablePremiumPatch = bytecodePatch(
     name = "Enable SoundCloud Go+",
-    description = ""
+    description = "Enables app features locked behind the subscription paywall."
 ) {
     compatibleWith(Constants.COMPATIBILITY)
 
@@ -45,6 +44,14 @@ val enablePremiumPatch = bytecodePatch(
             sget-object v0, Lcom/soundcloud/android/upsell/UpsellType${'$'}None;->INSTANCE:Lcom/soundcloud/android/upsell/UpsellType${'$'}None;
             return-object v0
         """.trimIndent())
+
+        // Hide persistent ads by patching both constructors
+        AdPlacementConfigCtorFingerprint.matchAll().forEach { match ->
+            val parameterOffset = if (match.method.parameterTypes.first() == "I") 1 else 0
+            match.method.addInstructions(0,
+                listOf(1, 2, 3).joinToString("\n") { "const/4 p${parameterOffset + it}, 0x0" }
+            )
+        }
     }
 
 }

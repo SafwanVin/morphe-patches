@@ -36,3 +36,8 @@ object MapToPlanFingerprint : Fingerprint(
     definingClass = "/RemoteUpsellVisibilityController;",
     name = "mapToPlan"
 )
+
+object AdPlacementConfigCtorFingerprint : Fingerprint(
+    definingClass = "/AdPlacementConfiguration;",
+    name = "<init>"
+)
