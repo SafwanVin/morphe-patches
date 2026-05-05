@@ -1,3 +1,10 @@
+## [1.29.1-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.29.1-dev.1...v1.29.1-dev.2) (2026-05-05)
+
+
+### Bug Fixes
+
+* **Prime Video:** Update `Enable speed control` patch to support v3.0.452+ ([dda0f65](https://github.com/hoo-dles/morphe-patches/commit/dda0f654395cebbcb6a6e23414b1621d40149916))
+
 ## [1.29.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.29.0...v1.29.1-dev.1) (2026-05-02)
 
 

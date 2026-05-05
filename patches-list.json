@@ -1,5 +1,5 @@
 {
-  "version": "1.29.1-dev.1",
+  "version": "1.29.1-dev.2",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -679,7 +679,7 @@
       "dependencies": [],
       "compatiblePackages": {
         "com.amazon.avod.thirdpartyclient": [
-          "3.0.447.757"
+          "3.0.452.1047"
         ]
       },
       "options": []
@@ -802,7 +802,7 @@
       "dependencies": [],
       "compatiblePackages": {
         "com.amazon.avod.thirdpartyclient": [
-          "3.0.447.757"
+          "3.0.452.1047"
         ]
       },
       "options": []
@@ -816,7 +816,7 @@
       ],
       "compatiblePackages": {
         "com.amazon.avod.thirdpartyclient": [
-          "3.0.447.757"
+          "3.0.452.1047"
         ]
       },
       "options": []
