@@ -1,3 +1,10 @@
+# [1.30.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.29.1-dev.2...v1.30.0-dev.1) (2026-05-05)
+
+
+### Features
+
+* **CamScanner:** Add `Enable Premium` and `Disable telemetry` patches ([052ed4f](https://github.com/hoo-dles/morphe-patches/commit/052ed4feaf58574777496c1e301006a7cd58132f))
+
 ## [1.29.1-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.29.1-dev.1...v1.29.1-dev.2) (2026-05-05)
 
 
