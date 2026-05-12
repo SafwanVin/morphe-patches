@@ -1,3 +1,10 @@
+# [1.31.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.31.0-dev.2...v1.31.0-dev.3) (2026-05-12)
+
+
+### Features
+
+* **Mirinae:** Add `Enable Pro` patch ([230f59a](https://github.com/hoo-dles/morphe-patches/commit/230f59a7f9bbd0ef3fed67ae011e9eedbc69287f))
+
 # [1.31.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.31.0-dev.1...v1.31.0-dev.2) (2026-05-12)
 
 

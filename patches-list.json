@@ -1,5 +1,5 @@
 {
-  "version": "1.31.0-dev.2",
+  "version": "1.31.0-dev.3",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -1162,6 +1162,33 @@
           "targets": [
             {
               "version": "9.0",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Pro",
+      "description": "Enables app features locked behind the subscription paywall.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.mirinae.mirinae",
+          "name": "Mirinae",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#87CBC8",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "2.2.2",
               "isExperimental": false,
               "minSdk": null,
               "description": null
