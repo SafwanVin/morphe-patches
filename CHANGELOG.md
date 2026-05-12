@@ -1,3 +1,10 @@
+# [1.31.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.31.0-dev.1...v1.31.0-dev.2) (2026-05-12)
+
+
+### Bug Fixes
+
+* **Meme Generator:** Fix license error on app launch ([8a5f8cd](https://github.com/hoo-dles/morphe-patches/commit/8a5f8cdd6f73423aff458f22e77312f6fb358abd))
+
 # [1.31.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.30.0...v1.31.0-dev.1) (2026-05-10)
 
 
