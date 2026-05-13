@@ -37,6 +37,7 @@
 | Mirinae                              | `com.mirinae.mirinae`                      | <ul><li>Enable Pro</li></ul>                                                                                                         |
 | MyExpenses                           | `org.totschnig.myexpenses`                 | <ul><li>Enable Pro</li></ul>                                                                                                         |
 | MyFitnessPal                         | `com.myfitnesspal.android`                 | <ul><li>Enable Premium+</li></ul>                                                                                                    |
+| Niagara Launcher                     | `bitpit.launcher`                          | <ul><li>Enable Pro</li></ul>                                                                                                         |
 | NOMone Desktop                       | `nom.vrd`                                  | <ul><li>Disable anti-tamper</li><li>Disable telemetry</li><li>Remove trial limit</li></ul>                                           |
 | Nova Launcher                        | `com.teslacoilsw.launcher`                 | <ul><li>Enable Prime</li></ul>                                                                                                       |
 | Pandora                              | `com.pandora.android`                      | <ul><li>Disable ads</li><li>Unlimited skips</li></ul>                                                                                |
