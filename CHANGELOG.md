@@ -1,3 +1,17 @@
+# [1.33.0](https://github.com/hoo-dles/morphe-patches/compare/v1.32.0...v1.33.0) (2026-05-23)
+
+
+### Bug Fixes
+
+* **Hello Chinese:** Bump version compatibility to 7.10.20 ([8251dda](https://github.com/hoo-dles/morphe-patches/commit/8251dda8300ccd14948b426c41bb782656315b03))
+* **MacroFactor:** Bump version compatibility to v5.7.8 ([acc40a1](https://github.com/hoo-dles/morphe-patches/commit/acc40a1a25b446d5ca67a24ed60e3a3db64e72cb))
+
+
+### Features
+
+* **Meme Generator:** Update patch logic to support v4.6826 ([2fb3325](https://github.com/hoo-dles/morphe-patches/commit/2fb3325edac3f11b0b3d43d54bf3bb8cd887f1d9))
+* **Windy:** Update patch logic to support v50.0.2 ([32f606b](https://github.com/hoo-dles/morphe-patches/commit/32f606bdfda024569a7b97cf9eb5033fe4e05273))
+
 # [1.33.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.33.0-dev.1...v1.33.0-dev.2) (2026-05-22)
 
 
