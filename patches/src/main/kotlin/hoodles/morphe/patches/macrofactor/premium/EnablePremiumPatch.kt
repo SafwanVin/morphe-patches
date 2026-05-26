@@ -14,7 +14,7 @@ internal val extensionPatch = sharedExtensionPatch(
 
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Enables app features locked behind the subscription paywall."
+    description = "REQUIRES ROOT MOUNT INSTALL! Enables app features locked behind the subscription paywall."
 ) {
     compatibleWith(*Constants.COMPATIBILITY)
 

@@ -8,11 +8,7 @@ import hoodles.morphe.util.byteArrayOf
 val SIGNATURE = byteArrayOf("72 80 3C E3 0B 7F 47 E8 4D 86 98 7F 45 1D AF 8C 7A CC B5 A0")
 val WORKOUTS_SIGNATURE = byteArrayOf("44 40 CF FB DA 84 8C 6C 8B 9E 02 84 79 50 74 58 79 9D 51 2C")
 
-val spoofSignaturePatch = bytecodePatch(
-    name = "Spoof signature",
-    description = "Spoof package signature for Firebase app check."
-) {
-    compatibleWith(*Constants.COMPATIBILITY)
+val spoofSignaturePatch = bytecodePatch {
 
     execute {
         var signature = if (packageMetadata.packageName == Constants.PACKAGE_NAME)
