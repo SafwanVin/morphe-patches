@@ -1,3 +1,15 @@
+# [1.34.0](https://github.com/hoo-dles/morphe-patches/compare/v1.33.0...v1.34.0) (2026-05-28)
+
+
+### Bug Fixes
+
+* **MacroFactor Workouts:** Bump version compatibility ([5ac1195](https://github.com/hoo-dles/morphe-patches/commit/5ac119558e1ad128bed265c7629fb5559d787005))
+
+
+### Features
+
+* **Sleep as Android:** Add `Enable Premium` patch ([f20a97d](https://github.com/hoo-dles/morphe-patches/commit/f20a97df1426644b722dc8a0b7880ccbdaf61b97))
+
 # [1.34.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.34.0-dev.1...v1.34.0-dev.2) (2026-05-28)
 
 
