@@ -1,3 +1,10 @@
+# [1.34.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.33.0...v1.34.0-dev.1) (2026-05-28)
+
+
+### Features
+
+* **Sleep as Android:** Add `Enable Premium` patch ([f20a97d](https://github.com/hoo-dles/morphe-patches/commit/f20a97df1426644b722dc8a0b7880ccbdaf61b97))
+
 # [1.33.0](https://github.com/hoo-dles/morphe-patches/compare/v1.32.0...v1.33.0) (2026-05-23)
 
 
