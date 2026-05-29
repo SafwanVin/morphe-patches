@@ -1,3 +1,10 @@
+# [1.35.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.34.0...v1.35.0-dev.1) (2026-05-29)
+
+
+### Features
+
+* **Showly:** Add `Enable Premium` patch ([939bd2f](https://github.com/hoo-dles/morphe-patches/commit/939bd2f1422d3667062f5e22817e7fe96e89ab0f))
+
 # [1.34.0](https://github.com/hoo-dles/morphe-patches/compare/v1.33.0...v1.34.0) (2026-05-28)
 
 
