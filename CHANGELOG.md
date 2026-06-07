@@ -1,3 +1,10 @@
+# [1.35.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.35.0-dev.1...v1.35.0-dev.2) (2026-06-07)
+
+
+### Bug Fixes
+
+* **Niagara Launcher:** Add package signature and install source spoofing ([d905526](https://github.com/hoo-dles/morphe-patches/commit/d9055263bdd13c25432323bbc8b38f26fa9ebea0))
+
 # [1.35.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.34.0...v1.35.0-dev.1) (2026-05-29)
 
 
