@@ -1,3 +1,10 @@
+# [1.36.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.35.1...v1.36.0-dev.1) (2026-06-13)
+
+
+### Features
+
+* **RP Hypertrophy:** Add `Enable Premium` patch ([f2f109f](https://github.com/hoo-dles/morphe-patches/commit/f2f109f460b8ae03366f66dfaae823d53fa426c1))
+
 ## [1.35.1](https://github.com/hoo-dles/morphe-patches/compare/v1.35.0...v1.35.1) (2026-06-12)
 
 

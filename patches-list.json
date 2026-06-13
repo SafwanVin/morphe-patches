@@ -1,5 +1,5 @@
 {
-  "version": "1.35.1",
+  "version": "1.36.0-dev.1",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -121,31 +121,6 @@
       ]
     },
     {
-      "name": "Disable Login Integrity",
-      "description": "Removes Play Integrity device attestation from login request.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "com.duolingo",
-          "name": "Duolingo",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#58CC02",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "6.82.3",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
       "name": "Disable Pairip license check",
       "description": "Disables Play Integrity API (pairip) client-side license check. This patch does not bypass Play Integrity attestation or pairipcore virtualization.",
       "default": false,
@@ -205,37 +180,6 @@
     },
     {
       "name": "Disable anti-tamper",
-      "description": "Disables anti-tamper checks including signature verification and purchase ID.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "nom.vrd",
-          "name": "NOMone Desktop",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#52CDFB",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.9.3-GooglePlay",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            },
-            {
-              "version": "1.9.3-storage",
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Disable anti-tamper",
       "description": "Disables various anti-tamper checks that causes the app to force-close.",
       "default": true,
       "dependencies": [],
@@ -263,7 +207,9 @@
       "name": "Disable dynamic app icon",
       "description": "Prevents Duolingo from changing the app icon. Only the default icon will be available.",
       "default": false,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.duolingo",
@@ -365,7 +311,9 @@
       "name": "Disable telemetry",
       "description": "Disables event logging sent to the app's custom endpoint.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "nom.vrd",
@@ -656,7 +604,9 @@
       "name": "Enable Premium",
       "description": "Enables app features locked behind the subscription paywall.",
       "default": true,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.duolingo",
@@ -758,6 +708,34 @@
           "targets": [
             {
               "version": "7.10.20",
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Enable Premium",
+      "description": "Enables app features locked behind the subscription paywall.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch",
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.rp.hypertrophy",
+          "name": "RP Hypertrophy",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#EC0915",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "1.1.0",
               "isExperimental": false,
               "minSdk": null,
               "description": null
@@ -1499,7 +1477,9 @@
       "name": "Enable debug mode",
       "description": "Enables hidden debug menu in settings.",
       "default": false,
-      "dependencies": [],
+      "dependencies": [
+        "BytecodePatch"
+      ],
       "compatiblePackages": [
         {
           "packageName": "com.duolingo",
