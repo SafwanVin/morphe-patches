@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.36.2-dev.1",
+  "version": "1.37.0-dev.1",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -1496,6 +1496,32 @@
       "options": []
     },
     {
+      "name": "Enable custom tabs",
+      "description": "Open articles using your default browser.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.apps.magazines",
+          "name": "Google News",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#4285F4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.161.0.931240252",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Enable debug",
       "description": "Enables debugging on the app by setting android:debuggable=\"true\".",
       "default": false,
@@ -1594,7 +1620,7 @@
     {
       "name": "MicroG integration",
       "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-      "default": false,
+      "default": true,
       "dependencies": [
         "ResourcePatch",
         "ResourcePatch",
@@ -1624,7 +1650,37 @@
     {
       "name": "MicroG integration",
       "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-      "default": false,
+      "default": true,
+      "dependencies": [
+        "ResourcePatch",
+        "ResourcePatch",
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.google.android.apps.magazines",
+          "name": "Google News",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#4285F4",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.161.0.931240252",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "MicroG integration",
+      "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
+      "default": true,
       "dependencies": [
         "ResourcePatch",
         "ResourcePatch",
@@ -1654,7 +1710,7 @@
     {
       "name": "MicroG integration",
       "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-      "default": false,
+      "default": true,
       "dependencies": [
         "ResourcePatch",
         "ResourcePatch",
@@ -1684,7 +1740,7 @@
     {
       "name": "MicroG integration",
       "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-      "default": false,
+      "default": true,
       "dependencies": [
         "ResourcePatch",
         "ResourcePatch",
